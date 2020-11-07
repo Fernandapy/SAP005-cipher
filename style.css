@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner {
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(151, 116, 116, 0.5), url("image/us.png"));
+    background-size: cover;
+    background-position: center;
+    padding: 150px 0;
+    text-align: center;
+    width: 180px;
+    height: 180px;
+}
+
+
+.banner h1 {
+    color: #1B98E0;
+    font-size: 45px;
+    margin: 0;
+}
+
+h3 {
+    color: #006494;
+    text-align : center;
+
+}
+  
+.banner p {
+    color: #247BA0;
+    font-size: 24px;
+}
+  
+body {
+    margin: 0;
+}
+  
+.btn {
+    background-color: #1A48E3;
+    color: white;
+    padding: 16px 48px;
+    border-radius: 4px;
+    display: inline-block;
+    text-decoration: none;
+    transition: .3s;
+}
+  
+.btn:hover {
+    background-color: #0D1EC5;
+    color: rgb(105, 88, 88);
+}
+  
+  
+
+
+.footer p {
+    color: #13293D;
+}
+.footer {
+    background: #247BA0;
+    text-align: center;
+    padding: 24px 0;
+}
+.card {
+    background: white;
+    box-shadow: 0 0 16px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    padding: 24px;
+    flex-grow: 1;
+}
+  
+  
+
+
+  
+.card h3 {
+    margin-bottom: 0;
+    text-decoration: none;
+}
+image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+a {
+  color: #1A48E3;
+  font-weight: bold;
+  text-decoration: none;
+  transition: .3s;
+}
+a:hover {
+  color: #CE2FAE;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 16px;
+    margin-bottom: 24px;
+  }
+  
+  
+@media (max-width: 800px) {
+    .cards {
+      grid-template-columns: 1fr;
+ } 
+}
+  
+  
+  
+@media (min-width: 500px) {
+    .container {
+      width: 400px;
+ }
+}
+  
+  
+@media (min-width: 800px) {
+    .container {
+      width: 600px;
+}
+}
+  
+@media (min-width: 1000px) {
+    .container {
+      width: 800px;
+ }
+}
+  
+.card {
+    background: white;
+    box-shadow: 0 0 16px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    /*width: 200px;*/
+    text-align: center;
+    text-decoration: none;
+    padding: 24px;
+    flex-grow: 1;
+  }
+  
+  
+  .card img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 4px;
+    text-decoration: none;
+  }
+  
+.card h3 {
+    margin-bottom: 0;
+    text-decoration: none;
+}
